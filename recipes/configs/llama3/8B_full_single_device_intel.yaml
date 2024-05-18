@@ -61,7 +61,7 @@ optimizer_in_bwd: True
 compile: False
 
 # Training environment
-device: cuda
+device: xpu 
 
 # Memory management
 enable_activation_checkpointing: True
